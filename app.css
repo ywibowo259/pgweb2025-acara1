@@ -1,0 +1,49 @@
+/* Heading */
+h1 {
+    color: blue;
+}
+h3 {
+    color: darkgrey;
+}
+
+/* Paragraf */
+#p1 {
+    text-align: justify;
+    text-indent: 20px;
+    color: blue;
+}
+.p2 {
+    text-align: justify;
+    text-indent: 10px;
+    color: darkmagenta;
+}
+
+/* Style Table */
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
